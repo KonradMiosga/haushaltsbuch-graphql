@@ -1,0 +1,10 @@
+type Query {
+    chuckNorrisJoke(query: String): MultiLanguageJoke
+}
+
+type MultiLanguageJoke {
+    english: String
+    german: String
+    polish: String
+    japanese: String
+}
